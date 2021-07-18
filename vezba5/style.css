@@ -1,0 +1,12 @@
+
+body{
+  
+}
+
+.box {
+    width: 40%;
+    background-color: rgba(165, 134, 204, 0.473);
+    margin: auto;
+    opacity: 0.8;
+}
+.box h1
