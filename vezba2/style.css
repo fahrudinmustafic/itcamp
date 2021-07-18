@@ -1,0 +1,52 @@
+
+
+ #customers tr:nth-child(even){background-color: #f2f2f2;}
+ #customers {
+   width: 65%;
+   float: center;
+   padding-left: 100px;
+  }
+  
+  
+ 
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color:rgb(22, 121, 67);
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+   
+
+  }
+
+  #customers tr td {
+  padding: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+   
+  .button td button{
+    padding: 10px 30px 10px 30px;
+    background-color:rgb(22, 121, 67);;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    float: center;
+    font-size: 15px;
+    font-style: Sans-serif;
+    
+
+  } 
+  .button td button:hover {
+      background-color: rgb(72, 179, 51);
+  }
+
+
+  
+
+
+
