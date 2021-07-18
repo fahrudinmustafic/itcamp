@@ -1,0 +1,82 @@
+
+.box {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+.box1{
+padding:200px 60px 0px 200px ;
+
+ 
+}
+
+.box2{
+   padding-top: 220px;
+   width: 30%;
+
+}
+
+.box2 h2  {
+
+    font-size: 30px;
+}
+
+.box2 p{
+    font-size: 20px;
+
+}
+
+.relative{
+background-color: rgba(255, 255, 255, 0.747);
+display: flex;
+width: 600px;
+height: 130px;
+position:absolute;
+left: 320px;
+top: 480px;
+padding: 15px;
+
+
+}
+
+.button {
+
+  margin: 1px solid green;
+  padding:10px;
+  background-color: rgb(83, 22, 180);
+color: white;
+border-radius: 10px;
+margin: 15px 0px 0px 50px;
+
+
+}
+.button:hover{
+    background-color: rgb(130, 21, 219);
+}
+
+label{
+    font-size: 18px;
+    font-style: initial;
+}
+
+@media screen and (max-width: 840px) {
+    .box1 .box2{
+        max-width: 100%;
+      
+  
+            }
+    
+    }
+    
+
+
+
+        .button1{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+
+
+        }
