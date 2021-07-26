@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2> Matematičke operacije</h2>
+<h2>Iznos:</h2>
+<h3>Sabiranje</h3><p id="sabiranje"></p><br>
+<h3>Množenje</h3><p id="mnozenje"></p>
+<h3>Deljenje</h3><p id="deljenje"></p>
+<h3>Oduzimanje</h3><p id="oduzimanje"></p><br><hr>
+<h2>Odredjivanje starosti na osnovu godina:</h2><p id="times"></p>
+
+<script>
+document.getElementById("sabiranje").innerHTML = 5 + 6;
+document.getElementById("mnozenje").innerHTML = 10 * 6;
+document.getElementById("deljenje").innerHTML = 100 / 5;
+document.getElementById("oduzimanje").innerHTML = 100 - 5;
+
+
+i=27;
+if (i<=18) {
+  greeting = "You are young!";
+}
+else if ( (i>=19) && (i<=30) ) {
+  greeting = "Middle age!";
+} 
+else {
+  greeting = "You are old!";
+}
+
+document.getElementById("times").innerHTML = greeting;
+</script>
+
+</body>
+</html> 
