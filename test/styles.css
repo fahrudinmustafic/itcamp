@@ -11,12 +11,14 @@
 h1{
     border-bottom: solid 1px;
     text-align: center;
+    padding-bottom: 15px;
 }
 
 
 h2{
     text-align: center;
     border-top: solid 1px;
+    padding-top: 15px;
 }
 
 .box1{
