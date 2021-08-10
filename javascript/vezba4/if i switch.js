@@ -29,7 +29,7 @@ else{
 
 
 
-// novi zadatak(svetlo na semaforu)
+// svetlo na semaforu
 var svetlo_na_semaforu='crveno';
 
 if ( svetlo_na_semaforu == "zeleno" ) {
@@ -42,4 +42,23 @@ else if (svetlo_na_semaforu== "zuto"){
 
 else if( svetlo_na_semaforu == "crveno"){
   console.log ('Sačekaj!!!');
+}
+
+
+
+
+//Program koji proverava da li je uneti broj deljiv sa 2, 5 ili 17, izgleda ovako:
+var a=16;
+
+if ( a % 2 === 0 )
+{
+  alert( "Broj je paran" )
+}
+if ( a % 5 === 0 )
+{
+  alert( "Broj je deljiv sa 5" )
+}
+if ( a % 17 === 0 )
+{
+  alert( "Broj je deljiv sa 17" )
 }
