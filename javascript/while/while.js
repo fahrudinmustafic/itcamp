@@ -1,4 +1,4 @@
-
+// brojanje od 0 do 100
 var broj = 0;
 var zbir = 0;
 while ( broj < 100 ) {
