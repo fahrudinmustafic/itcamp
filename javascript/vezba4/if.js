@@ -44,3 +44,24 @@ console.log("Pogodili ste jedan od zamisljenih brojeva, i on je",x);
     }
     else {
       console.log("Niste pogodili nijedan od zamisljenih brojeva. Unesite jedan broj od 0 do 100 i pokusajte ponovo")}
+
+
+
+
+
+
+
+//proveravanje da li je broj negativan ili pozitivan
+
+function testNumber(a){
+  let result;
+  if(a>0){
+result="pozitivno";
+return result;
+
+  }
+  else{result="negativno";}
+return result;
+}
+
+console.log(testNumber(5));
