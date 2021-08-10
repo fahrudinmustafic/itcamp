@@ -28,3 +28,18 @@ else{
 }
 
 
+
+// novi zadatak(svetlo na semaforu)
+var svetlo_na_semaforu='crveno';
+
+if ( svetlo_na_semaforu == "zeleno" ) {
+  console.log ('Pređi ulicu!');
+}
+else if (svetlo_na_semaforu== "zuto"){
+
+ console.log ('Pripremi se!');
+}
+
+else if( svetlo_na_semaforu == "crveno"){
+  console.log ('Sačekaj!!!');
+}
