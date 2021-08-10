@@ -43,4 +43,4 @@ console.log("Pogodili ste jedan od zamisljenih brojeva, i on je",x);
 
     }
     else {
-      console.log("Niste pogodili nijedan od zamisljenih brojeva")}
+      console.log("Niste pogodili nijedan od zamisljenih brojeva. Unesite jedan broj od 0 do 100 i pokusajte ponovo")}
