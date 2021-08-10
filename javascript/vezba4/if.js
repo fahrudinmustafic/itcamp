@@ -30,3 +30,17 @@ else if(number >91){
   console.log(10)
 
 }
+
+
+
+
+   //uneti nasumice neki broj, program ispituje da li je to jedan od zamisljenih bojeva.
+var x=1;
+   
+    if (x===1 ||x===10 || x===20 || x===30 || x===40 || x===50 ){
+
+console.log("Pogodili ste jedan od zamisljenih brojeva, i on je",x);
+
+    }
+    else {
+      console.log("Niste pogodili nijedan od zamisljenih brojeva")}
