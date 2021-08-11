@@ -79,3 +79,24 @@ console.log(y);
 else {
   console.log("uneli ste neispravnu vrednost.")
 }
+
+
+
+
+// snizenje cene na osnovu kolicine kupljene robe
+var x=112;
+
+
+if(x<=10){
+
+console.log("cena je 12$")
+
+}
+else if(x>10 && x<=99){
+console.log("cena je 10$");
+
+}
+else if(x>=100){
+console.log("cena je 7$");
+
+}
