@@ -62,3 +62,20 @@ if ( a % 17 === 0 )
 {
   alert( "Broj je deljiv sa 17" )
 }
+
+
+
+
+// program koji pretvara centimetare u ince.
+
+var x=2.54
+var y=24;
+
+if (y>0){
+y=y/2.54;
+console.log(y);
+}
+
+else {
+  console.log("uneli ste neispravnu vrednost.")
+}
